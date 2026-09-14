@@ -38,7 +38,7 @@ The model is trained using the **RAVDESS (Ryerson Audio-Visual Database of Emoti
 
 The dataset contains emotional speech recordings from different actors.
 
-## 🔄 ML Pipeline
+## 🔄 ML PIPELINE
 
 ```text
 Speech Audio
@@ -52,3 +52,49 @@ CNN Model
 Emotion Prediction
      ↓
 Confidence Score
+
+
+
+🖥️ Application Features 
+*Upload WAV audio files
+*Record voice directly using microphone
+*MFCC-based audio feature extraction
+*CNN-based emotion classification
+*Emotion prediction
+*Confidence score
+*Probability distribution for all emotions
+*Streamlit web interface
+
+📂 Project Structure
+CodeAlpha_EmotionRecognition/
+│
+├── app.py
+├── train_model.py
+├── evaluate_model.py
+├── extract_features.py
+├── predict.py
+├── emotion_recognition.py
+├── main.py
+├── emotion_model.keras
+├── label_encoder.pkl
+├── X.npy
+├── y.npy
+└── README.md
+
+
+▶️ How to Run
+
+Install the required libraries:
+pip install -r requirements.txt
+
+Run the Streamlit application:
+streamlit run app.py
+
+
+🎯 Internship Task
+CodeAlpha Virtual Machine Learning Internship
+Task: Speech Emotion Recognition
+
+👨‍💻 Author
+Atharva Kaware
+
